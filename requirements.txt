@@ -1,0 +1,9 @@
+streamlit>=1.26
+transformers>=4.30
+torch>=1.13
+pandas>=1.5
+matplotlib>=3.6
+ibm-watson>=6.1.0
+python-dotenv>=1.0
+requests>=2.31
+sqlalchemy>=2.0
