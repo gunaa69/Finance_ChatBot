@@ -75,7 +75,6 @@ with col1:
             with st.spinner("Thinking..."):
                 text = generate_cohere_response(f"{ctx}\n{user_text}")
             st.success(text)
-            st.snow()
             # Save the chat if user registered (rudimentary logic)
             try:
                 save_chat(1, "user", user_text)
